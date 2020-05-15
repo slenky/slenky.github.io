@@ -5,5 +5,8 @@
     {%- if site.footer_show_references -%}
       &nbsp;- {{ site.references_title | default: "References on request" }}
     {%- endif -%}
+    {%- if site.footer_pdf_file -%}
+      &nbsp;- <a href="{{ site.footer_pdf_file | absolute_url }}" target="_blank">Save page as PDF</a>
+    {%- endif -%}
   </p>
 </div>

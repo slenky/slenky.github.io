@@ -30,9 +30,9 @@ telegram_username: astapovb
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
+gtm: "GTM-TDR7VH2"
 # gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "UA-166784507-1"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -64,6 +64,9 @@ more_content: | # this will include new lines to allow paragraphs
 
 # Footer
 footer_show_references: false
+
+# Show link to PDF in footer
+footer_pdf_file: /pdf/DevOps_Bohdan_Astapov.pdf
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
