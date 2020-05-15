@@ -3,38 +3,30 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Bohdan Astapov
+title: DevOps Engineer
+email: astapovb@ukr.net
+#phone: 
+#website:
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+#twitter_username: jekyllrb
+github_username:  slenky
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: bohdan-astapov
+telegram_username: astapovb
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -44,16 +36,14 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
-
+  Skilled and results-oriented IT engineer with hands-on experience in managing cloud computer technology, servers and telecommunication systems. 
+  Key area of technical expertise and genuine personal interest: enterprise-level infrastructure in the Cloud environments. Hands-on experience with deploying availability infrastructure in various Cloud providers (preferably and most relevant - <mark>Google Cloud</mark>).
+  Deep understanding of the value of automating everything.  
+  Hands-on experience with production-grade <mark>Kubernetes+Helm</mark> continuous deployments.  
+  Ability to work within tight deadlines, self-motivated, conscientious, punctual, flexible and accountable.
+  
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
 
@@ -64,14 +54,16 @@ about_content: | # this will include new lines to allow paragraphs
 # education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: When I'm Not Coding
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  I do:
+  * Boxing - started it recently. In videogames it's been much easier.
+  * Sailing - I've sailed on small boats for years, but I have to admit that windsurfing is a lot more funnier for me.
+  * Playing guitar - I play all the campfire songs and mix them with Metallica \m/
+  * Snowboarding - because everybody does.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
