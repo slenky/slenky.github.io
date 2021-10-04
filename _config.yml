@@ -89,11 +89,11 @@ content:
 #        quote: >
 #          Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          * Kubeflow
-          * Python
-          * Images
-          * AzureML
-          * ArgoCD
+          * Built customized <mark>Kubeflow</mark> ditributions for <mark>AWS & Azure</mark>.
+          * Wrote Python application to perform ML deployments using Kubeflow.
+          * Built sequenced Docker images for ML.
+          * Using <mark>Terraform</mark>, provided a full infrastructure needed for Azure ML platform.
+          * Automated Kubeflow deployments using ArgoCD.
       - layout: left
         title: mimacom
         link: https://www.mimacom.com
@@ -113,10 +113,10 @@ content:
 
           [Project reference](https://www.mimacom.com/en/why-mimacom/references/cloud-platform-and-safe-transformation-polypoint/)
       - layout: left
-        company: EPAM Systems
+        title: EPAM Systems
         link: https://epam.com
-        job_title: DevOps Engineer
-        dates: Jun 2017 - Jan 2018
+        sub_title: DevOps Engineer
+        caption: Jun 2017 - Jan 2018
         # quote: >
         #  Short description of the company (optional)
         description: |
@@ -124,9 +124,9 @@ content:
           * Used Jenkins & BlueOcean to improve CI/CD on the project.
           * Co-operated with dev & test teams to adopt DevOps methodology.
       - layout: left
-        company: Freelance
-        job_title: System Administrator
-        dates: Dec 2013 - Oct 2016
+        title: Freelance
+        sub_title: System Administrator
+        caption: Dec 2013 - Oct 2016
         # quote: >
         #  Short description of the company (optional)
         description: |
@@ -137,18 +137,18 @@ content:
     layout: list
     content:
       - layout: top-middle
-        name: EPAM Systems
-        dates: Dec 2016 - Jun 2017
-        qualification: External Courses & Pre-Production
+        title: EPAM Systems
+        caption: Dec 2016 - Jun 2017
+        sub_title: External Courses & Pre-Production
         # quote: >
         #   Short institution or course description (optional)
         # description: | # this will include new lines to allow paragraphs
         #   Description of qualification
 
       - layout: top-middle
-        name: National Technical University Of Agriculture
-        dates: 2013 - 2017
-        qualification: Bachelor Degree in Automation Engineering
+        title: National Technical University Of Agriculture
+        caption: 2013 - 2017
+        sub_title: Bachelor Degree in Automation Engineering
   - title: When I'm Not Coding
     layout: text
     content: | # this will include new lines to allow paragraphs
