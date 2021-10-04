@@ -103,8 +103,8 @@ content:
         #  Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           * Multinational team (CH-UA); Scrum SAFe Methodology.
-          * Wrote Helm charts for deploying the Spring Boot microservices across the environments.
-          * Supporting and maintaining different Kubernetes clusters in the Google Cloud. Configured an automated offsite backups, GitOps and Prometheus stack with Grafana.
+          * Wrote <mark>Helm</mark> charts for deploying the Spring Boot microservices across the environments.
+          * Supporting and maintaining different <mark>Kubernetes</mark> clusters in the <mark>Google Cloud</mark>. Configured an automated offsite backups, GitOps and Prometheus stack with Grafana.
           * Worked tightly with different third-party software deployed to Kubernetes: Hashicorp Vault, Consul, MongoDB, ClamAV etc.
           * Configured CI/CD with multiple requirements like private NPM registry and artifacts sharing between multi-repo.
           * Operating on-premise GitLab in Kubernetes.
